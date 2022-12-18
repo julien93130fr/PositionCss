@@ -1,0 +1,80 @@
+
+/*  reset general */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*mettre ne forme la présentation des containers */
+.container{ 
+    margin: 0 auto;
+    margin-bottom: 2vw;
+    width: 80%;
+    height: 24vh;
+    border: 5px solid royalblue;
+    background-color: #ededed;
+}
+
+/*mettre ne forme les titres  */
+h3{
+    font-size: xx-large;
+    color: palevioletred;
+    text-shadow: #ededed;
+}
+
+p{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+
+
+
+/*  mettre l elément au centre */
+.container1{
+    display: flex;
+    background-color: aqua;
+}
+
+.box1{
+    margin: auto;
+    background-color: blue;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.box2{
+   background-color: indianred;
+}
+
+
+
+.container3{
+   background-color: lawngreen;
+    
+    position: relative;
+   
+}
+
+ 
+.box3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: darkcyan;
+  
+}
+
